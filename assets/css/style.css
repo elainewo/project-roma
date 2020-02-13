@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    height: 100%;
+    font-family: 'Santio Bold';
+}
+
+@font-face {
+    font-family: 'Santio Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Santio Bold'), url(Santio\ Bold.woff) format('woff');
+}
+
+h1,
+p {
+    margin: 0;
+    padding: 0
+}
+
+.roma {
+    background: url(../img/cleo-topper.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    height: 100%;
+    width: 100%;
+}
+
+.roma-intro {
+    width: 32%;
+    font-size: 2.9rem;
+    margin-left: 8%;
+    margin-top: 18%;
+}
+
+.roma-intro a {
+    text-decoration: none;
+    color: #e7bc0e;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 1.9rem;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.takeaction-wrapper {
+    text-align: right;
+    margin-right: 8%;
+    padding-top: 1.5%;
+}
+
+.take-action {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: underline yellow;
+    color: #fff;
+    letter-spacing: .2em;
+    display: inline;
+}
+
+.takeaction-img {
+    width: 1.5%;
+    margin-right: 1%;
+    display: inline;
+}
+
+.domestic-wrapper {
+    color: #6bc1a3;
+    width: 69%;
+    line-height: 4.9rem;
+    font-weight: bold;
+    padding-top: 42%;
+    margin: 0 auto;
+    margin-bottom: 45%;
+    font-size: 2.5rem;
+}
+
+.roma span {
+    color: #fff;
+    background-color: rgb(41, 40, 40);
+    padding: .1rem;
+}
+
+.numbers {
+    color: #e7bc0e;
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-bottom: 20%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.numbers img {
+    width: 26%;
+    margin-bottom: 14%;
+}
+
+.numbers p:first-of-type {
+    font-size: 12.5rem;
+}
+
+.numbers p:nth-of-type(2) {
+    font-size: 3.5rem;
+}
+
+.payment {
+    color: #cb91b6;
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-bottom: 20%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.payment img {
+    width: 26%;
+    margin-bottom: 14%;
+}
+
+.payment p:first-of-type {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.payment p:nth-of-type(2) {
+    font-size: 12.5rem;
+}
+
+.health-insurance {
+    color: #6bc1a3;
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-bottom: 20%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.health-insurance img {
+    width: 26%;
+    margin-bottom: 14%;
+}
+
+.health-insurance p:first-of-type {
+    font-size: 12.5rem;
+}
+
+.health-insurance p:nth-of-type(2) {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
