@@ -135,7 +135,7 @@ p {
     width: 70%;
     margin: 0 auto;
     margin-left: 15%;
-    margin-bottom: 20%;
+    margin-bottom: 19%;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -152,4 +152,19 @@ p {
 .health-insurance p:nth-of-type(2) {
     font-size: 3.5rem;
     font-weight: bold;
+}
+
+.unsung-heroes {
+    color: #7eb8e1;
+    width: 69%;
+    line-height: 4.9rem;
+    font-weight: bold;
+    margin-left: 35%;
+    padding-bottom: 13%;
+    font-size: 2.5rem;
+}
+
+.kids-image {
+    background: url(../img/kid.png) center/cover no-repeat, url(../img/see.png) center/cover no-repeat;
+    height: 100vh;
 }
