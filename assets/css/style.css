@@ -6,6 +6,10 @@ body {
     font-family: 'Santio Bold';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'Santio Bold';
     font-style: normal;
@@ -44,6 +48,11 @@ p {
     margin-top: 10%;
 }
 
+.roma-intro a:hover {
+    color: #cb91b6;
+    transition: .5s;
+}
+
 #arrow {
     position: absolute;
     transform: rotate(90deg);
@@ -52,13 +61,13 @@ p {
     left: 25%;
 }
 
-.takeaction-wrapper {
+.takeAction-wrapper {
     text-align: right;
     margin-right: 8%;
     padding-top: 1.5%;
 }
 
-.take-action {
+.takeAction-link {
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 1.2rem;
@@ -70,10 +79,20 @@ p {
     display: inline;
 }
 
-.takeaction-img {
+.takeAction-link:hover {
+    color: #e7bc0e;
+}
+
+.takeAction-img {
     width: 1.5%;
     margin-right: 1%;
-    display: inline;
+    display: inline-block;
+}
+
+.roma span {
+    color: #fff;
+    background-color: rgb(41, 40, 40);
+    padding: .1rem;
 }
 
 .domestic-wrapper {
@@ -87,17 +106,10 @@ p {
     font-size: 2.5rem;
 }
 
-.roma span {
-    color: #fff;
-    background-color: rgb(41, 40, 40);
-    padding: .1rem;
-}
-
 .numbers {
     color: #e7bc0e;
     width: 70%;
     margin: 0 auto;
-    margin-left: 15%;
     margin-bottom: 20%;
     font-weight: bold;
     text-transform: uppercase;
@@ -120,7 +132,6 @@ p {
     color: #cb91b6;
     width: 70%;
     margin: 0 auto;
-    margin-left: 15%;
     margin-bottom: 20%;
     font-weight: bold;
     text-transform: uppercase;
@@ -144,7 +155,6 @@ p {
     color: #6bc1a3;
     width: 70%;
     margin: 0 auto;
-    margin-left: 15%;
     margin-bottom: 19%;
     font-weight: bold;
     text-transform: uppercase;
@@ -168,10 +178,10 @@ p {
     color: #7eb8e1;
     width: 69%;
     line-height: 4.9rem;
+    font-size: 2.5rem;
     font-weight: bold;
     padding-left: 30%;
     padding-bottom: 13%;
-    font-size: 2.5rem;
 }
 
 .kids-image {
