@@ -14,7 +14,7 @@ html {
     font-family: 'Santio Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Santio Bold'), url(Santio\ Bold.woff) format('woff');
+    src: local('Santio Bold'), url(Santio-Bold.woff) format('woff');
 }
 
 h1,
@@ -28,8 +28,6 @@ p {
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
-    height: 100%;
-    width: 100%;
 }
 
 .roma-intro {
@@ -54,11 +52,12 @@ p {
 }
 
 #arrow {
-    position: absolute;
     transform: rotate(90deg);
     background-color: transparent;
     color: #e7bc0e;
-    left: 25%;
+    display: inline-block;
+    padding-bottom: 30px;
+    padding-right: 20px;
 }
 
 .takeAction-wrapper {
@@ -79,7 +78,7 @@ p {
     display: inline;
 }
 
-.takeAction-link:hover {
+.takeAction-wrapper:hover .takeAction-link {
     color: #e7bc0e;
 }
 
@@ -87,6 +86,11 @@ p {
     width: 1.5%;
     margin-right: 1%;
     display: inline-block;
+    transition: transform 1s;
+}
+
+.takeAction-wrapper:hover .takeAction-img {
+    transform: scale(1.5);
 }
 
 .roma span {
