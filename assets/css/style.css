@@ -44,6 +44,14 @@ p {
     margin-top: 10%;
 }
 
+#arrow {
+    position: absolute;
+    transform: rotate(90deg);
+    background-color: transparent;
+    color: #e7bc0e;
+    left: 27%;
+}
+
 .takeaction-wrapper {
     text-align: right;
     margin-right: 8%;
@@ -54,7 +62,9 @@ p {
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 1.2rem;
-    text-decoration: underline yellow;
+    text-decoration: none;
+    border-bottom: 2px solid #e7bc0e;
+    padding-bottom: .5%;
     color: #fff;
     letter-spacing: .2em;
     display: inline;
@@ -159,7 +169,7 @@ p {
     width: 69%;
     line-height: 4.9rem;
     font-weight: bold;
-    margin-left: 35%;
+    padding-left: 30%;
     padding-bottom: 13%;
     font-size: 2.5rem;
 }
@@ -167,4 +177,56 @@ p {
 .kids-image {
     background: url(../img/kid.png) center/cover no-repeat, url(../img/see.png) center/cover no-repeat;
     height: 100vh;
+}
+
+.donate {
+    height: 100vh;
+    background-color: #000;
+    padding-top: 25%;
+    padding-bottom: 20%;
+}
+
+.donate-wrapper {
+    width: 80%;
+    font-size: 7.3rem;
+    margin: 0 auto;
+}
+
+.donate-wrapper a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 3rem;
+    display: inline-block;
+    margin-top: 10%;
+    border: 2.7px solid #fff;
+    border-radius: 3px;
+    padding: 1.7% 4.3%;
+}
+
+.donate-wrapper a:hover {
+    box-shadow: 3px 3.5px 1px #fff;
+}
+
+footer {
+    background-color: #000;
+    padding-top: 10%;
+}
+
+footer p {
+    width: 25%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #6bc1a3;
+    text-decoration: none;
+    padding-left: 1%;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
